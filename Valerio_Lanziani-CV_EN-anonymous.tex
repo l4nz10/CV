@@ -1,0 +1,147 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% "ModernCV" CV and Cover Letter
+% LaTeX Template
+% Version 1.11 (19/6/14)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Xavier Danaux (xdanaux@gmail.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template requires the moderncv.cls and .sty files to be in the same 
+% directory as this .tex file. These files provide the resume style and themes 
+% used for structuring the document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[11pt,a4paper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+
+\moderncvstyle{classic} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+
+\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+
+\usepackage[scale=0.85]{geometry} % Reduce document margins
+%\setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
+%\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION SECTION
+%----------------------------------------------------------------------------------------
+
+\firstname{Intecs_R1} % Your first name
+
+% All information in this block is optional, comment out any lines you don't need
+%\photo[55pt][0.4pt]{pictures/profile} % The first bracket is the picture height, the second is the thickness of the frame around the picture (0pt for no frame)
+% \quote{"A witty and playful quotation" - John Smith}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\makecvtitle % Print the CV title
+
+\section{Summary}
+I achieved my Master's Degree in computer engineering in 2015 and lately I've been working as a software engineer at Translated, a translation company located in Rome.
+\newline{}
+I'm very curious about new technologies and trends and always open to learn. I like to pay a lot of attention to details and to take on new challenges.
+
+%----------------------------------------------------------------------------------------
+%   WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Experience}
+
+\cventry{2015--Present}{Software Engineer}{\textsc{Translated}}{Rome}{}{
+Following the work done in my master thesis, I was responsible of the management and coexistence of the company's RDBMS and new graph database. With this work I acquired a fairly good knowledge on graph databases, like OrientDB and Neo4j. I successfully developed methods of import and export of large, unorganized sets of data. I also implemented graph traversal functions aimed to be very fast, while maximizing the number of results obtainable with the available data. All of this improved the effectiveness of the company's main product: MateCAT. The most used languages were Java and PHP.}
+
+%----------------------------------------------------------------------------------------
+%	ACADEMIC EXPERIENCES SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Academic Experience}
+
+\cventry{$\circ$}{Information Retrieval}{}{}{}
+{This project consisted in the development of a search engine with a large number of html pages. I created a simple web interface to search and retrieve large sets of previously indicized pages. For this work I used the Apache Lucene framework. This project gave me a good knowledge about search engines and how do they work.}
+
+%------------------------------------------------
+
+\cventry{$\circ$}{Big Data}{}{}{}
+{This work required the processing of large amounts of data using the popular MapReduce programming model. In this project I learned to use the Apache Hadoop framework, Pig, Hive and the AWS platform. It taught me how much optimization and correct sequencing is crucial when managing huge sets of data.}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Education}
+
+\cventry
+{2015}
+{Master's Degree in Computer Engineering}
+{Roma Tre University}{Rome}
+{}
+{\emph{\normalsize {Graph-oriented extension on the Translation Memories' model in the translation industry}}\\
+The thesis covers the work done to create a graph model that could improve the well enstablished Translation Memory model, with the goal of incrementing the number of results obtainable with the same amount of data. It also explains the efforts made to build a graph database on top of said model containing billions of elements.}
+
+\cventry
+{2012}
+{Bachelor's Degree in Computer Engineering}
+{Roma Tre University}{Rome}
+{}
+{\emph{\normalsize {Visualization system of urban public transportation on maps}}}
+
+%----------------------------------------------------------------------------------------
+%	COMPUTER SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Skills (sorted by experience)}
+
+\cvitem{OS}{Windows, Linux, OSX}
+\cvitem{Languages}{Java, PHP, Javascript, Python}
+\cvitem{Frameworks}{Apache ActiveMQ, Apache Lucene, Apache Hadoop}
+\cvitem{Databases}{OrientDB, Neo4j, MySQL, Redis}
+
+%----------------------------------------------------------------------------------------
+%	LANGUAGES SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Languages}
+
+\cvitemwithcomment{Italian}{Mothertongue}{}
+\cvitemwithcomment{English}{Professional working proficiency}{}
+
+%----------------------------------------------------------------------------------------
+%	COVER LETTER
+%----------------------------------------------------------------------------------------
+
+% To remove the cover letter, comment out this entire block
+
+% \clearpage
+% 
+% % \recipient{HR Department}{Corporation\\123 Pleasant Lane\\12345 City, State} % Letter recipient
+% \date{\today} % Letter date
+% \opening{Hi,} % Opening greeting
+% \closing{Thanks,} % Closing phrase
+% \enclosure[Attached]{curriculum vit\ae{}} % List of enclosed documents
+% 
+% \makelettertitle % Print letter title
+% 
+% sometime I feel like have to send a CV around looking for a new job, just because at the end of year I will be back in Italy.
+% 
+% A remote job can change that things helping me going on
+% % \lipsum[1-3] % Dummy text
+% 
+% \makeletterclosing % Print letter signature
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
