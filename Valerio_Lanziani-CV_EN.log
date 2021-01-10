@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.8.26)  16 NOV 2020 17:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.8.26)  10 JAN 2021 21:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -720,17 +720,13 @@ Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 147.
 Package rerunfilecheck Info: File `Valerio_Lanziani-CV_EN.out' has not changed.
 
 (rerunfilecheck)             Checksum: AFEB7F3DE99E0595A24832700999293D;550.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
- 21652 strings out of 492616
- 368852 string characters out of 6129481
- 550393 words of memory out of 5000000
- 25356 multiletter control sequences out of 15000+600000
- 595467 words of font info for 82 fonts, out of 8000000 for 9000
+ 21653 strings out of 492616
+ 368868 string characters out of 6129481
+ 550416 words of memory out of 5000000
+ 25355 multiletter control sequences out of 15000+600000
+ 595568 words of font info for 83 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  43i,11n,67p,788b,335s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}</usr/local/
@@ -742,7 +738,7 @@ lic/lm/lmssbx10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/l
 msso10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmsso17.pf
 b></usr/local/texlive/2019/texmf-dist/fonts/type1/public/marvosym/marvosym.pfb>
 
-Output written on Valerio_Lanziani-CV_EN.pdf (1 page, 158891 bytes).
+Output written on Valerio_Lanziani-CV_EN.pdf (1 page, 158827 bytes).
 PDF statistics:
  70 PDF objects out of 1000 (max. 8388607)
  58 compressed objects within 1 object stream
